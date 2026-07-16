@@ -1,0 +1,108 @@
+{
+  "titulo": "Guia de Alerta e Prevenção contra Enchentes - Taquara/RS",
+  "descricao": "Informações oficiais da Defesa Civil e Prefeitura de Taquara",
+  "contato": {
+    "defesa_civil": "(51) 99999-0001",
+    "bombeiros": "193",
+    "samu": "192",
+    "prefeitura": "(51) 3541-9200",
+    "doacoes": "(51) 3541-9200 ramal 213",
+    "voluntarios": "(51) 99999-1111"
+  },
+  "abrigos_por_bairro": {
+    "Santa Maria": [
+      {
+        "nome": "Escola Estadual Bairro Santa Maria",
+        "endereco": "Rua Principal, s/n - Bairro Santa Maria",
+        "referencia": "Próximo à quadra de esportes",
+        "contato": "(51) 3542-1001"
+      },
+      {
+        "nome": "Igreja Nossa Senhora da Conceição",
+        "endereco": "Rua das Orquídeas, 150 - Bairro Santa Maria",
+        "referencia": "Ao lado do posto de saúde",
+        "contato": "(51) 3542-1002"
+      }
+    ],
+    "Empresa": [
+      {
+        "nome": "Ginásio Comunitário do Bairro Empresa",
+        "endereco": "Av. das Indústrias, 320 - Bairro Empresa",
+        "referencia": "Em frente à associação de moradores",
+        "contato": "(51) 3542-2001"
+      }
+    ],
+    "Eldorado": [
+      {
+        "nome": "Escola Municipal do Eldorado",
+        "endereco": "Rua dos Pinheiros, 87 - Bairro Eldorado",
+        "referencia": "No centro do bairro",
+        "contato": "(51) 3542-3001"
+      },
+      {
+        "nome": "Salão Paroquial São José",
+        "endereco": "Rua das Flores, 41 - Bairro Eldorado",
+        "referencia": "Próximo à praça",
+        "contato": "(51) 3542-3002"
+      }
+    ],
+    "Demais regiões": [
+      {
+        "nome": "Ginásio Municipal de Esportes (Centro)",
+        "endereco": "Rua Tristão Monteiro, 1278 - Centro",
+        "referencia": "Sede da prefeitura",
+        "contato": "(51) 3541-9200"
+      }
+    ]
+  },
+  "doacoes": {
+    "o_que_receber": [
+      "Água potável",
+      "Alimentos não perecíveis",
+      "Roupas e calçados (todos os tamanhos)",
+      "Roupas de cama e banho",
+      "Medicamentos básicos",
+      "Higiene pessoal e limpeza",
+      "Leite e fórmulas infantis"
+    ],
+    "pontos_entrega": [
+      "Sede da Prefeitura (Centro)",
+      "Secretaria de Assistência Social",
+      "Postos de Saúde dos bairros Santa Maria, Empresa e Eldorado"
+    ],
+    "mensagem_whatsapp": "Olá! Quero fazer doações para as famílias afetadas. Quais são os horários de entrega e o que mais está precisando?"
+  },
+  "voluntarios": {
+    "atividades": [
+      "Ajudar na organização dos abrigos",
+      "Entrega de alimentos e roupas",
+      "Apoio a famílias desabrigadas",
+      "Auxiliar na Defesa Civil com transporte",
+      "Ajudar na limpeza após a enchente"
+    ],
+    "mensagem_whatsapp": "Olá! Quero me cadastrar como voluntário para ajudar no combate às enchentes em Taquara. Quais são as vagas e locais de encontro?"
+  },
+  "dicas": {
+    "antes": [
+      "Fique atento às previsões de chuva e alertas da Defesa Civil",
+      "Se mora nos bairros Santa Maria, Empresa ou Eldorado, redobre a atenção",
+      "Guarde documentos, medicamentos e objetos de valor em local alto",
+      "Prepare uma mala com roupas, água e alimentos para 3 dias",
+      "Verifique se calhas e ralos estão limpos"
+    ],
+    "durante": [
+      "Não atravesse ruas alagadas nem a pé nem de carro — 15 cm de água já levam carros",
+      "Se estiver em Santa Maria, Empresa ou Eldorado, procure abrigo imediatamente ao subir a água",
+      "Desligue a energia elétrica se houver risco de água entrar em casa",
+      "Ligue para a Defesa Civil se precisar de resgate",
+      "Não se aproxime de arroios e barrancos"
+    ],
+    "depois": [
+      "Não volte para casa antes da confirmação da segurança da Defesa Civil",
+      "Evite contato com água da enchente — ela pode estar contaminada",
+      "Limpe e desinfete todos os objetos que entraram em contato com água",
+      "Fique atento a deslizamentos de terra e queda de árvores",
+      "Colabore com a limpeza comunitária"
+    ]
+  }
+}

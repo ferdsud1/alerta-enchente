@@ -1,0 +1,22 @@
+{
+  "name": "Guia Enchentes Taquara",
+  "short_name": "Enchentes Taquara",
+  "description": "Informações de emergência, abrigos por bairro, doações e voluntariado em Taquara/RS",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#d32f2f",
+  "theme_color": "#d32f2f",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "icon-alerta.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-alerta.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
