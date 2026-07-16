@@ -21,41 +21,25 @@
 <body>
   <header class="cabecalho">
     <h1>Guia de Alerta contra Enchentes - Taquara/RS</h1>
-    <p>Informações da Defesa Civil e Prefeitura</p>
+    <p>Informações oficiais da Defesa Civil e Prefeitura</p>
     <p class="alerta-bairros">⚠️ Áreas com maior risco: <strong>Santa Maria, Empresa, Eldorado e Padilha</strong></p>
   </header>
 
   <!-- Área de Alerta Ativo -->
   <section class="alerta-geral" id="alertaGeral">
     <h3>📢 ALERTA ATUALIZADO</h3>
-    <p id="textoAlerta">Neste momento: <strong>Atenção para chuvas intensas previstas nas próximas 24h. Fique atento aos comunicados oficiais.</strong></p>
-  </section>
-
-  <!-- Cadastro para Alertas -->
-  <section class="cadastro-alertas">
-    <h3>🔔 Receba avisos de risco</h3>
-    <p>Cadastre-se para ver alertas personalizados quando abrir o site. Seus dados ficam apenas no seu aparelho.</p>
-    
-    <div id="formCadastro">
-      <input type="text" id="nomePessoa" placeholder="Seu nome" required>
-      <input type="text" id="bairroPessoa" placeholder="Seu bairro" required>
-      <input type="tel" id="telefonePessoa" placeholder="Seu telefone com DDD" required>
-      <button onclick="salvarCadastro()">Salvar cadastro</button>
-    </div>
-    
-    <div id="dadosCadastrado" style="display:none;">
-      <p>✅ Cadastro salvo! Você receberá avisos para o bairro <strong id="seuBairro"></strong>.</p>
-      <button onclick="alterarCadastro()">Alterar dados</button>
-    </div>
+    <p>Neste momento: <strong>Fique atento às previsões de chuva e orientações oficiais.</strong></p>
   </section>
 
   <section class="contato-rapido">
     <h2>Contatos de Emergência</h2>
     <div class="lista-contatos">
-      <div class="item-contato"><strong>Defesa Civil:</strong> (51) 99999-0001</div>
-      <div class="item-contato"><strong>Bombeiros:</strong> 193</div>
+      <div class="item-contato"><strong>Defesa Civil (WhatsApp):</strong> (51) 99303-8172</div>
+      <div class="item-contato"><strong>Defesa Civil (Fixo):</strong> (51) 3541-9200 ramal 162</div>
+      <div class="item-contato"><strong>Corpo de Bombeiros:</strong> 193 / (51) 3542-1110</div>
+      <div class="item-contato"><strong>Brigada Militar:</strong> 190</div>
       <div class="item-contato"><strong>SAMU:</strong> 192</div>
-      <div class="item-contato"><strong>Prefeitura:</strong> (51) 3541-9200</div>
+      <div class="item-contato"><strong>E-mail:</strong> defesacivil@taquara.rs.gov.br</div>
     </div>
 
     <div class="aviso-trote">
@@ -76,13 +60,13 @@
         <strong>Escola Estadual Bairro Santa Maria</strong><br>
         Rua Principal, s/n<br>
         Referência: Próximo à quadra<br>
-        Contato: (51) 3542-1001
+        Contato: Defesa Civil
       </div>
       <div class="card-abrigo">
         <strong>Igreja Nossa Senhora da Conceição</strong><br>
         Rua das Orquídeas, 150<br>
         Referência: Ao lado do posto de saúde<br>
-        Contato: (51) 3542-1002
+        Contato: Defesa Civil
       </div>
     </div>
 
@@ -92,7 +76,7 @@
         <strong>Ginásio Comunitário do Bairro Empresa</strong><br>
         Av. das Indústrias, 320<br>
         Referência: Em frente à associação<br>
-        Contato: (51) 3542-2001
+        Contato: Defesa Civil
       </div>
     </div>
 
@@ -102,7 +86,7 @@
         <strong>Escola Municipal do Eldorado</strong><br>
         Rua dos Pinheiros, 87<br>
         Referência: No centro do bairro<br>
-        Contato: (51) 3542-3001
+        Contato: Defesa Civil
       </div>
     </div>
 
@@ -112,13 +96,13 @@
         <strong>Escola Comunitária do Padilha</strong><br>
         Estrada do Padilha, s/n<br>
         Referência: Próximo à entrada principal<br>
-        Contato: (51) 3542-4001
+        Contato: Defesa Civil
       </div>
       <div class="card-abrigo">
         <strong>Salão da Comunidade do Padilha</strong><br>
         Rua da Igreja, 95<br>
         Referência: Ao lado da capela<br>
-        Contato: (51) 3542-4002
+        Contato: Defesa Civil
       </div>
     </div>
 
@@ -133,6 +117,12 @@
     </div>
   </section>
 
+  <section class="alertas-sms">
+    <h2>📱 Receba Alertas Oficiais</h2>
+    <p>Para receber os alertas de emergência da Defesa Civil em Taquara - RS, envie um <strong>SMS gratuito</strong> com o <strong>CEP do seu endereço (sem pontos ou traços)</strong> para o número <strong>40199</strong>.</p>
+    <p>Acompanhe também as atualizações na página oficial: <a href="https://www.facebook.com/defesaciviltaquara" target="_blank">facebook.com/defesaciviltaquara</a></p>
+  </section>
+
   <section class="ajuda">
     <div class="bloco-ajuda">
       <h3>🤝 Quero ser Voluntário</h3>
@@ -142,7 +132,7 @@
         <li>Apoiar famílias desabrigadas</li>
         <li>Ajudar na limpeza após a enchente</li>
       </ul>
-      <a href="https://wa.me/5551999991111?text=Quero%20ser%20voluntário" target="_blank" class="botao-ajuda">Entrar em contato</a>
+      <a href="https://wa.me/5551993038172?text=Quero%20ser%20voluntário" target="_blank" class="botao-ajuda">Entrar em contato</a>
     </div>
 
     <div class="bloco-ajuda">
@@ -155,95 +145,28 @@
         <li>Itens de higiene e limpeza</li>
       </ul>
       <p><strong>Entregas:</strong> Prefeitura, CRAS e postos de saúde</p>
-      <a href="https://wa.me/555135419200?text=Quero%20fazer%20doações" target="_blank" class="botao-ajuda">Mais informações</a>
+      <a href="https://wa.me/5551993038172?text=Quero%20fazer%20doações" target="_blank" class="botao-ajuda">Mais informações</a>
     </div>
   </section>
 
   <section class="dicas">
-    <h2>📌 Orientações</h2>
+    <h2>📌 Orientações em caso de emergência</h2>
     <div class="bloco-dicas">
-      <h3>✅ Antes</h3>
       <ul>
-        <li>Redobre atenção nos bairros Santa Maria, Empresa, Eldorado e Padilha</li>
-        <li>Guarde documentos e objetos de valor em local alto</li>
-        <li>Prepare uma mala com água, alimentos e remédios</li>
-        <li>Limpe calhas e ralos</li>
-      </ul>
-    </div>
-    <div class="bloco-dicas">
-      <h3>⚠️ Durante</h3>
-      <ul>
-        <li>Nunca atravesse ruas alagadas</li>
-        <li>Se mora em área de risco, procure abrigo imediato</li>
-        <li>Desligue a energia em casa se houver risco</li>
-        <li>Ligue para emergências apenas se for real necessidade</li>
-      </ul>
-    </div>
-    <div class="bloco-dicas">
-      <h3>🔎 Depois</h3>
-      <ul>
-        <li>Só volte para casa após confirmação da Defesa Civil</li>
-        <li>Não entre em contato com água da enchente</li>
-        <li>Fique atento a deslizamentos</li>
+        <li><strong>Não atravesse áreas alagadas:</strong> Evite transitar a pé ou de carro em locais onde não é possível ver o asfalto ou o nível da água.</li>
+        <li><strong>Busque abrigo seguro:</strong> Afaste-se de árvores, postes, placas de sinalização e áreas com risco de deslizamento.</li>
+        <li><strong>Desconecte eletrônicos:</strong> Retire os aparelhos da tomada para evitar danos em caso de raios.</li>
+        <li><strong>Tenha um "kit sobrevivência":</strong> Mantenha documentos importantes em embalagens plásticas e tenha água, alimentos não perecíveis e lanterna à mão.</li>
       </ul>
     </div>
   </section>
 
   <script>
-    // ------------------------------
-    // Sistema de Cadastro e Alertas
-    // ------------------------------
-    function salvarCadastro() {
-      const nome = document.getElementById('nomePessoa').value.trim();
-      const bairro = document.getElementById('bairroPessoa').value.trim();
-      const telefone = document.getElementById('telefonePessoa').value.trim();
-
-      if (!nome || !bairro || !telefone) {
-        alert('Preencha todos os campos corretamente.');
-        return;
-      }
-
-      // Salva APENAS no aparelho do usuário
-      localStorage.setItem('cadastroAlerta', JSON.stringify({nome, bairro, telefone}));
-      mostrarCadastro();
-    }
-
-    function mostrarCadastro() {
-      const cadastro = JSON.parse(localStorage.getItem('cadastroAlerta'));
-      if (cadastro) {
-        document.getElementById('formCadastro').style.display = 'none';
-        document.getElementById('dadosCadastrado').style.display = 'block';
-        document.getElementById('seuBairro').textContent = cadastro.bairro;
-      } else {
-        document.getElementById('formCadastro').style.display = 'block';
-        document.getElementById('dadosCadastrado').style.display = 'none';
-      }
-    }
-
-    function alterarCadastro() {
-      localStorage.removeItem('cadastroAlerta');
-      mostrarCadastro();
-    }
-
-    // Mostra aviso personalizado conforme bairro cadastrado
-    function verificarAlerta() {
-      const cadastro = JSON.parse(localStorage.getItem('cadastroAlerta'));
-      const bairrosRisco = ['santa maria', 'empresa', 'eldorado', 'padilha'];
-      
-      if (cadastro && bairrosRisco.includes(cadastro.bairro.toLowerCase())) {
-        document.getElementById('alertaGeral').style.background = '#ffd7d7';
-        document.getElementById('textoAlerta').innerHTML = `<strong>⚠️ Atenção ${cadastro.nome}: Seu bairro ${cadastro.bairro} está em área de risco. Fique atento às orientações.</strong>`;
-      }
-    }
-
-    // ------------------------------
     // Botão de Localização com confirmação anti-trote
-    // ------------------------------
     const botao = document.getElementById('botaoLocalizacao');
     const status = document.getElementById('statusLocalizacao');
 
     botao.addEventListener('click', () => {
-      // Confirmação obrigatória
       if (!confirm('Você confirma que esta é uma emergência REAL? Trotes são crime e atrasam atendimentos de quem precisa!')) {
         status.textContent = "Pedido cancelado. Use apenas em caso de emergência.";
         return;
@@ -266,16 +189,12 @@
           const lng = pos.coords.longitude;
           const maps = `https://www.google.com/maps?q=${lat},${lng}`;
           const msg = `⚠️ EMERGÊNCIA REAL! Preciso de resgate. Localização: ${maps} | ${lat}, ${lng}`;
-          const link = `https://wa.me/5551999990001?text=${encodeURIComponent(msg)}`;
+          const link = `https://wa.me/5551993038172?text=${encodeURIComponent(msg)}`;
           status.innerHTML = `✅ Localizado! <a href="${link}" target="_blank">Clique aqui para enviar à Defesa Civil</a>`;
         },
         () => status.textContent = "❌ Permita acesso à localização para usar essa função."
       );
     });
-
-    // Inicia funções ao carregar a página
-    mostrarCadastro();
-    verificarAlerta();
   </script>
 </body>
 </html>

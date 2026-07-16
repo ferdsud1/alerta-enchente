@@ -1,4 +1,4 @@
-const VERSAO = 'guia-enchentes-v1.3'; // Nova versão com cadastro e anti-trote; // AUMENTE O NÚMERO AQUI QUANDO ATUALIZAR DADOS DEPOIS
+const VERSAO = 'guia-enchentes-v1.4'; // Nova versão com dados oficiais e alerta por SMS
 const ARQUIVOS = [
   './',
   './index.html',
