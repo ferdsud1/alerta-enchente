@@ -1,4 +1,4 @@
-const VERSAO = 'guia-enchentes-v1.4'; // Nova versão com dados oficiais e alerta por SMS
+const VERSAO = 'guia-enchentes-v1.5';  // Nova versão com dados oficiais e alerta por SMS
 const ARQUIVOS = [
   './',
   './index.html',
